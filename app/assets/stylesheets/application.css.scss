@@ -1,0 +1,95 @@
+@import "bootstrap";
+
+.deleted {
+  display: none;
+}
+
+.user-info {
+  margin-top: 9px;
+}
+
+.nav {
+  margin-top: 5px;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+#description-column-width {
+  width: 60%;
+}
+
+#enter-description-form-field {
+  width: 75%;
+  display: inline;
+}
+
+#new_mustdo {
+  background: black;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 50px;
+}
+
+#description-label {
+  color: rgb(76,76,76);
+  text-transform: uppercase;
+  padding-right: 5px;
+}
+
+#your-mustdo-title {
+  text-align: center;
+  color: rgb(51,51,51);
+  font-family: 'Oxygen', sans-serif;
+}
+
+#user-name-in-title {
+  color: rgb(231, 16, 30);
+}
+
+#mustdo-brand-in-title {
+  
+}
+
+.column-center-align {
+  text-align: center;
+}
+
+.colored-header {
+  background: rgb(51,51,51);
+  color: white;
+}
+
+.colored-rows {
+
+}
+
+#save-description-button {
+  background: rgb(140, 140, 140);
+  border-color: rgb(140, 140, 140);
+  color: white;
+}
+
+#save-description-button:hover {
+  background: rgb(92, 190, 31);
+  border-color: rgb(92, 190, 31);
+  color: white;
+}
+
+a {
+  color: rgb(231, 16, 30);
+}
+
+a:hover {
+  color: rgba(231, 16, 30, .8);
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+  border-top: none;
+}
